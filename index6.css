@@ -1,0 +1,331 @@
+@media screen and (max-width: 600px){
+    div.main-image1 img{
+        height:500px;
+    }
+    .wilheading h1{
+        font-size: 25px;
+        padding-left: 120px;
+}
+}
+
+.wilheading{
+    background-color: rgba(118, 158, 49, 0.523);
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.wilheading h1{
+    text-align: center;
+}
+
+.ch1 {
+    margin-left: 155px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: rgba(118, 158, 49, 0.315);
+    margin-right: 90px;
+}
+
+.ccontainer{
+    display: flex;
+}
+
+div.ccontainer img{
+    flex: 1;
+    width: 500px;
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 0px;
+    padding-top: 30px;
+    
+}
+.ccontainer p{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 22px;
+    line-height: 30px;
+    margin-right: 90px;
+    opacity: 0;
+  transform: translateX(-20px); /* Start offscreen to the left */
+  animation: slideInAnimation 1s forwards ease-out;
+  background-color: rgba(118, 158, 49, 0.315);
+}
+
+@keyframes slideInAnimation {
+  to {
+    opacity: 1;
+    transform: translateX(0); /* Move to the original position */
+  }
+}
+.ccontainer h3{
+    padding-top: 30px;
+    background-color: rgb(118, 158, 49);
+}
+
+@media screen and (max-width:1065px){
+    div.ccontainer img{
+        width:300px;
+        height:200px;      
+}
+
+div.ccontainer p{
+    padding-left: 10px;
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width:600px){
+
+div.ccontainer p{
+    padding-left: 5px;
+    padding-right: 2px;
+    line-height: 20px;
+}
+div.ccontainer img{
+    width:200px;
+    height:150px;
+}
+
+}
+.dcontainer{
+    display: flex;
+}
+
+div.dcontainer img{
+    flex: 1;
+    width: 500px;
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 0px;
+    padding-top: 30px;
+    
+}
+.dcontainer p{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 22px;
+    line-height: 30px;
+    margin-right: 90px;
+    opacity: 0;
+  transform: translateX(-20px); /* Start offscreen to the left */
+  animation: slideInAnimation 1s forwards ease-out;
+  background-color: rgba(118, 158, 49, 0.333);
+}
+
+@keyframes slideInAnimation {
+  to {
+    opacity: 1;
+    transform: translateX(0); /* Move to the original position */
+  }
+}
+@media screen and (max-width:1065px){
+    div.dcontainer img{
+        width:300px;
+        height:200px;      
+}
+
+div.dcontainer p{
+    padding-left: 10px;
+    font-size: 18px;
+}
+}  
+
+@media screen and (max-width:600px){
+
+    div.dcontainer p{
+        padding-left: 5px;
+        padding-right: 2px;
+        line-height: 20px;
+    }
+    div.dcontainer img{
+        width:200px;
+        height:150px;
+    }
+    
+    }
+
+
+    .econtainer{
+        display: flex;
+    }
+    
+    div.econtainer img{
+        flex: 1;
+        width: 500px;
+        height: 300px;
+        margin-left: 150px;
+        margin-right: 0px;
+        padding-top: 30px;
+        
+    }
+    .econtainer p{
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 22px;
+        line-height: 30px;
+        margin-right: 90px;
+        opacity: 0;
+      transform: translateX(-20px); /* Start offscreen to the left */
+      animation: slideInAnimation 1s forwards ease-out;
+      background-color: rgba(118, 158, 49, 0.333);
+    }
+    
+    @keyframes slideInAnimation {
+      to {
+        opacity: 1;
+        transform: translateX(0); /* Move to the original position */
+      }
+    }
+@media screen and (max-width:1065px){
+        div.econtainer img{
+            width:300px;
+            height:200px;      
+    }
+    
+    div.econtainer p{
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    }  
+    
+@media screen and (max-width:600px){
+    
+        div.econtainer p{
+            padding-left: 5px;
+            padding-right: 2px;
+            line-height: 20px;
+        }
+        div.econtainer img{
+            width:200px;
+            height:150px;
+        }
+        
+        }
+
+        .fcontainer{
+            display: flex;
+        }
+        
+        div.fcontainer img{
+            flex: 1;
+            width: 500px;
+            height: 300px;
+            margin-left: 150px;
+            margin-right: 0px;
+            padding-top: 30px;
+            
+        }
+        .fcontainer p{
+            margin-top: 30px;
+            margin-left: 30px;
+            font-size: 22px;
+            line-height: 30px;
+            margin-right: 90px;
+            opacity: 0;
+          transform: translateX(-20px); /* Start offscreen to the left */
+          animation: slideInAnimation 1s forwards ease-out;
+          background-color: rgba(118, 158, 49, 0.333);
+        }
+        
+        @keyframes slideInAnimation {
+          to {
+            opacity: 1;
+            transform: translateX(0); /* Move to the original position */
+          }
+        }
+@media screen and (max-width:1065px){
+            div.fcontainer img{
+                width:300px;
+                height:200px;      
+        }
+        
+        div.fcontainer p{
+            padding-left: 10px;
+            font-size: 18px;
+        }
+        }  
+        
+@media screen and (max-width:600px){
+        
+            div.fcontainer p{
+                padding-left: 5px;
+                padding-right: 2px;
+                line-height: 20px;
+            }
+            div.fcontainer img{
+                width:200px;
+                height:150px;
+            }
+            
+            }
+
+@media screen and (max-width:480px){
+        
+                .ccontainer, .dcontainer, .econtainer,
+                .fcontainer {
+                    display: block;
+                margin-left: -40px;
+                margin-right: 2px;
+                }
+
+                .ch1 {
+                    margin-left: 110px;
+                    margin-right: 10px;
+                }
+
+                .ccontainer p, .dcontainer p,
+                .econtainer p, .fcontainer p {
+                    margin-left: 150px;
+                    margin-right: 10px;
+                }
+
+            }
+
+
+
+            div.map5{
+                padding-left: 150px;
+                padding-right: 90px;
+                width: 100%;
+                height:auto;
+                margin-top: 30pxpx;
+                padding-bottom: -50px;
+            }
+
+@media screen and (max-width: 1065px) {
+                div.map5{
+                    padding-left: 160px;
+                    padding-right: 20px;
+                    width: 100%;
+                    height:auto;
+                    margin-top: 10px;
+                }
+            }
+
+
+.back-button{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    color: wheat;
+    background-color: darkolivegreen;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.back-button a{
+    text-align: center;
+    color: wheat;
+    text-decoration: none;
+}
+.back-button a:hover {
+    color: gray;
+    transition: all o.5s ease 0s;
+}
+    
+    
+    
+
+
+
+
+
+
+

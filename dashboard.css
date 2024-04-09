@@ -1,0 +1,92 @@
+/* styles.css */
+
+body {
+    background-color: #f0f8ea; /* Light green background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(./backgroungimgs/photo-1473081556163-2a17de81fc97.avif);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #fcffff;
+    text-align: center;
+}
+
+.newsletter-subscriptions {
+    background-color: #9eeca3; /* Lighter green background */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2e2f2f;
+    text-align: center;
+}
+
+ul {
+    list-style-type:circle;
+margin-left: 10px;
+    padding: 3px;
+}
+
+
+button {
+    background-color: #325b33; /* Green */
+    border: 2px;
+    border-color: #fcfdfd;
+    color: rgb(252, 250, 250);
+    padding: 10px 50px ;
+    text-align: center;
+    display: flow-root;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.editor-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.editor-container button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.editor-container button:hover {
+    background-color: #45a049;
+}

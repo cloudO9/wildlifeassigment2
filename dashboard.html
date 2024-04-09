@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="dashboard.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Dashboard</h1>
+        <div class="newsletter-subscriptions">
+            <h2>Newsletter Subscriptions</h2>
+            <ul id="subscribedEmails"></ul>
+        </div>
+    </div>
+
+    <button onclick="openEditor('index1.json')">Edit HOME</button>
+    <button onclick="openEditor('index2.json')">Edit SL WILDLIFE INTRODUCTION</button>
+    <button onclick="openEditor('index3.json')">Edit DEPARTMENT OF WILDLIFE CONSERVATION</button>
+    <button onclick="openEditor('index4.json')">Edit SL LEOPARD</button>
+    <button onclick="openEditor('index5.json')">Edit ANIMALS IN SRI LANKA</button>
+    <button onclick="openEditor('index6.json')">Edit WILPATTU NATIONAL PARK</button>
+    <button onclick="openEditor('index7.json')">Edit YALA NATIONAL PARK</button>
+
+
+    <div id="editor" class="editor-container">
+        <textarea id="jsonTextArea" rows="10" cols="50"></textarea>
+        <button onclick="saveChangesToLocal()">Save Changes</button>
+        <button onclick="closeEditor()">Cancel</button>
+    </div>
+</body>
+</html>

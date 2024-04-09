@@ -1,0 +1,351 @@
+@media screen and (max-width: 600px){
+    div.main-image1 img{
+        height:500px;
+    }
+    .wilheading h1{
+        font-size: 25px;
+        padding-left: 120px;
+}
+}
+
+.wilheading{
+    background-color: rgba(118, 158, 49, 0.523);
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.wilheading h1{
+    text-align: center;
+}
+
+.ch1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(118, 158, 49, 0.523);
+    padding: 5px;
+}
+
+.ccontainer img{
+    padding-left: 350px;
+    padding-right: 90px;
+    opacity: 1; /* Set initial opacity*/
+    animation: fadeIn 3.5s ease-in-out;
+    width: auto;
+    height:auto;
+    
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Starting opacity */
+    }
+    to {
+        opacity: 2; }
+
+    }
+
+
+.ccontainer p{
+    padding-left: 150px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+   
+}
+
+@media screen and (max-width:1100px){
+    .ccontainer img{
+        width: auto;
+        height: 300px;
+    }
+ 
+
+}
+
+@media screen and (max-width:600px){
+    .ccontainer img{
+        width: auto;
+        height: 200px;
+        padding-right: 20px;
+        padding-left: 130px;
+    }
+    .ch1{
+        padding-left: 70px;
+}
+.ccontainer p{
+    font-size: 18px;
+}
+}
+
+
+.dcontainer img{
+    padding-left: 350px;
+    padding-right: 90px;
+    opacity: 1; /* Set initial opacity to 0 */
+    animation: fadeIn 3.5s ease-in-out;
+    width: auto;
+    height:auto;
+    
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Starting opacity */
+    }
+    to {
+        opacity: 2; }
+
+    }
+
+
+.dcontainer p{
+    padding-left: 150px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+   
+}
+
+@media screen and (max-width:1100px){
+    .dcontainer img{
+        width: auto;
+        height: 300px;
+    }
+ 
+
+}
+
+@media screen and (max-width:600px){
+    .dcontainer img{
+        width: auto;
+        height: 200px;
+        padding-right: 20px;
+        padding-left: 130px;
+    }
+    .ch1{
+        padding-left: 70px;
+}
+.dcontainer p{
+    font-size: 18px;
+}
+}
+
+.econtainer img{
+    padding-left: 350px;
+    padding-right: 90px;
+    opacity: 1; /* Set initial opacity to 0 */
+    animation: fadeIn 3.5s ease-in-out;
+    width: 1200px;
+    height:500px;
+    
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Starting opacity */
+    }
+    to {
+        opacity: 2; }
+
+    }
+
+.econtainer p{
+    padding-left: 150px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px; 
+}
+
+@media screen and (max-width:1100px){
+    .econtainer img{
+        width: auto;
+        height: 300px;
+    }
+ 
+
+}
+
+@media screen and (max-width:600px){
+    .econtainer img{
+        width: auto;
+        height: 200px;
+        padding-right: 20px;
+        padding-left: 130px;
+    }
+    .ch1{
+        padding-left: 70px;
+}
+.econtainer p{
+    font-size: 18px;
+}
+}
+
+.fcontainer img{
+    padding-left: 350px;
+    padding-right: 90px;
+    opacity: 1; /* Set initial opacity to 0 */
+    animation: fadeIn 3.5s ease-in-out;
+    width: 1200px;
+    height:500px;
+    
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Starting opacity */
+    }
+    to {
+        opacity: 1; }
+
+    }
+
+
+.fcontainer p{
+    padding-left: 150px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+@media screen and (max-width:1100px){
+    .fcontainer img{
+        width: auto;
+        height: 300px;
+    }
+ 
+
+}
+
+@media screen and (max-width:600px){
+    .fcontainer img{
+        width: auto;
+        height: 200px;
+        padding-right: 20px;
+        padding-left: 126px;
+    }
+    .ch1{
+        padding-left: 70px;
+}
+.fcontainer p{
+    font-size: 18px;
+    padding-left: 150px;
+}
+}
+    
+div.map5{
+    padding-left: 150px;
+    padding-right: 90px;
+    width: 100%;
+    height:auto;
+    margin-top: 30pxpx;
+    padding-bottom: -50px;
+}
+
+@media screen and (max-width: 1065px) {
+    div.map5{
+        padding-left: 160px;
+        padding-right: 20px;
+        width: 100%;
+        height:auto;
+        margin-top: 10px;
+    }
+}
+
+
+.back-button{
+text-align: center;
+padding: 20px 20px 20px 20px;
+color: wheat;
+background-color: darkolivegreen;
+margin-top: 30px;
+margin-bottom: 10px;
+}
+.back-button a{
+text-align: center;
+color: wheat;
+text-decoration: none;
+}
+.back-button a:hover {
+color: gray;
+transition: all o.5s ease 0s;
+}
+
+@media screen and (max-width:480px){
+    .ccontainer img{
+        width: 300px;
+        height: 100px;
+        padding-right: 20px;
+        padding-left: 126px;
+    }
+    .ch1{
+        padding-left: 90px;
+}
+.ccontainer p{
+    font-size: 18px;
+    padding-left: 120px;
+    padding-right: 2px;
+}
+.dcontainer img{
+    width: 300px;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 126px;
+}
+
+
+.dcontainer p{
+font-size: 18px;
+padding-left: 120px;
+padding-right: 2px;
+}
+
+.econtainer img{
+    width: 300px;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 126px;
+}
+
+
+.fcontainer p{
+font-size: 18px;
+padding-left: 120px;
+padding-right: 2px;
+}
+
+.fcontainer img{
+    width: 300px;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 126px;
+}
+
+
+.econtainer p{
+font-size: 18px;
+padding-left: 120px;
+padding-right: 2px;
+}
+}
+    
+div.map5{
+    padding-left: 150px;
+    padding-right: 90px;
+    width: 100%;
+    height:auto;
+    margin-top: 30px;
+    padding-bottom: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    

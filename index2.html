@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="./main.js" defer></script>
+ 
+    <title>Sri Lankan Wildlife</title>
+    <link rel="icon" href="./favicon_io (2)/favicon.ico">
+</head>
+<header>
+     <!--navigation that disappears when the screen width reaches 1065px -->
+    <nav class="navigation">
+        <div class="logo">
+            <video class="logo.video" autoplay muted height="100px" width="100px">
+                <source src="./wildlife.mp4" type="video/mp4">
+            </video>
+
+            <ul class="list">
+
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="index2.html">SL Wildlife Introduction</a></li>
+                <li><a href="index3.html">Department of Wildlife Conservation</a></li>
+                <li><a href="index4.html">SL Leopard</a></li>
+                <li><a href="index5.html">Animals in Sri Lanka</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+             </ul>
+
+        </div>
+   
+    </nav>
+     <!--sidebar navigation that gets activated when the screen width reaches 1065px-->
+    <div class="sidenav">
+        <div class="logo2">
+            <video class="logo.video" autoplay muted height="100px" width="100px">
+                <source src="./wildlife.mp4" type="video/mp4">
+            </video>
+
+        <a href="index1.html">Home</a>
+        <a href="index2.html">SL Wildlife Introduction</a>
+        <a href="index3.html">Department of Wildlife Conservation</a>
+        <a href="index4.html">SL Leopard</a>
+        <a href="index5.html">Animals in Sri Lanka</a>
+        <li><a href="login.html">LOGIN</a></li>
+    </div>
+
+</header>
+
+<body>
+    <!--1st section with different locations to spot wildlife in a overlay manner-->
+    <h2 class="table-heading">Locations to spot wildlife in Sri Lanka</h2>
+   <div class="overlay">
+    <!--1st lcation-->
+      <img src="./imgs/sinharaja1.png" alt=" sinharaja forest">
+      <div class="text2-overlay">
+          <h3 id="text2-overlay-title"></h3>
+          <P id="text2-overlay-text"></P>
+      </div>
+   </div>
+   <div class="map" alt="a map for sinharaja forest">
+      <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31719.193278310926!2d843942692889095!3d6.406990389348937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1704612939395!5m2!1sen!2slk"
+        width="100%" height="500px" style="border: 1px;
+          " allowfullscreen="" loading="lazy" referrerpolicy="
+          no-referrer-when-downgrade"></iframe> </p>
+   </div>
+
+   <div class="overlay2">
+    <!--2nd location-->
+    <img src="./imgs/hikkaduwa4.png" alt="hikkaduwa marine natioonal park" width="100%">
+    <div class="text3-overlay">
+        <h3 id="text3-overlay-title"></h3>
+        <P id="text3-overlay-text"></P>
+    </div>
+ </div>
+ <div class="map2" alt="a map for hikkaduwa marine national park">
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.950118394879!2d80.09663587474985!3d6.1374042938494995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae1770f548d710b%3A0x159baa380959fcaa!2sHikkaduwa%20Marine%20National%20Park!5e0!3m2!1sen!2slk!4v1704616295952!5m2!1sen!2slk" 
+        width="100%" height="500" style="border:2px;"
+         allowfullscreen="" loading="lazy" 
+         referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+ </div>
+
+ <div class="overlay3">
+    <!--3rd location-->
+    <img src="./imgs/minnweriya2.png" alt="minneriya national park" width="100%">
+    <div class="text4-overlay">
+        <h3 id="text4-overlay-title"></h3>
+        <P id="text4-overlay-text">.</P>
+    </div>
+ </div>
+ <div class="map3" alt="a map for minneriya national park">
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.8379206005234!2d80.84209537476855!3d8.01564429201066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb6009a20be05d%3A0xa4d046f2f06b05f5!2sMinneriya%20National%20Park!5e0!3m2!1sen!2slk!4v1704617858772!5m2!1sen!2slk"
+         width="100%" height="500" style="border:0;" allowfullscreen="" 
+         loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe></p>
+ </div>
+
+  <div>
+    <!--table on different animals you can find in these locations-->
+    <h2 class="table-heading2">Animals you can spot in these locations</h2>
+    <table class="table1">
+        <thead>
+            <tr>
+                <th>Location</th>
+                <th>Animal name</th>
+                <th>Animal</th>
+                <th>Intersteing facts</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Sinharaja Forest</td>
+                <td>Endemic birds</td>
+                <td><img src="./imgs/sinharaja3.png" alt="bird" width="300px" height="200px"></td>
+                <td>It’s known that 95 percent of Sri Lanka’s endemic birds are present in Sinharaja,
+                     making it a birding expedition unlike any other. Another interesting sight to 
+                     be found in Sinharaja is the presence of mixed species of foraging bird flocks,
+                    a phenomenon commonly found in rainforests.  A hundred such flocks have been
+                    systematically observed, and studies have revealed that some flocks contained
+                     48 species, including 12 endemic to the island. The rare endemic birds to be
+                     seen in the Sinharaja Rain Forest are the Red-faced Malkoha, the Sri Lanka
+                    Blue Magpie, the Ashy-headed Babbler and the White-headed Starling.
+                     The Green–billed Coucal has been given the title of being the Rarest of 
+                    Sri Lankan birds.</td>
+            </tr>
+            <tr>
+                <td>Mammals</td>
+                <td><img src="./imgs/sinharaja mammal1.png" alt="mammal" width="300px" height="200px"></td>
+                <td>Out of 12 endemic mammal species of the country 8 are found here. 
+                    Giant squirrel, dusky-stripped jungle squirrel, badger mongoose and 
+                    endemic purple-faced leaf monkey and torque macaque are frequently seen.
+                    Though seldom sighted, it is estimated that 15 Sri Lankan Leopards live
+                     within the confines of this nature reserve while the Brown Mongoose 
+                     and the Golden Palm Civet have been occasionally spotted.</td>
+            </tr>
+            <tr>
+                <td>Retiles and Amphibians</td>
+                <td><img src="./imgs/sinharaja reptile1.png" alt="reptile" width="300px" height="200px"></td>
+                <td>The most common reptile is the Green Garden Lizard. The Calotes liolepis, an arboreal species, 
+                    is the rarest of all agamids found on the island to reside within the Reserve. The only
+                     Tortoise recorded on the Reserve is the Hard-shelled Terrapin. Among the snakes, 
+                     the Green Pit Viper and Hump-nosed Viper are commonly found in this forest and are endemic 
+                     to Sri Lanka, along with 8 others; which include the endemic Torrent Toad and the common House 
+                     Toad. The Wrinkled Frog and the Sri Lankan Reed Frog, too, are found in most streams and marshes 
+                     within the Reserve.</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Hikkaduwa national park</td>
+                <td>Corals</td>
+                <td><img src="./imgs/hikkaduwa coral1.png" alt="coral" width="300px" height="200px"></td>
+                <td>In this National Park, which has been declared with the purpose of coral reef conservation,
+                     coral reefs are classified as fringing reefs, barrier reefs and atolls according to the
+                      nature of the corals.60 species of corals belonging to 31 genera have been recorded.</td>
+            </tr>
+            <tr>
+            <td>Fish species</td>
+            <td><img src="./imgs/hikkaduwa fish1.png" alt="fish" width="300px" height="200px"></td>
+            <td>In Hikkaduwa National Park, 113 species of reef associated fish species belonging to 48 genera
+                 and 8 species of colorful fish have been recorded.</td>
+            </tr>
+            <tr>
+                <td>Invertebrates</td>
+                <td><img src="./imgs/hikkaduwa verti1.png" alt="invertibrates" width="300px" height="200px"></td>
+                <td>Many invertebrates such as crabs, turtles, shrimps, lobsters, oysters and sea worms are
+                     also found. Three species of turtles are also foundin Hikkaduwa Marine National Park.</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Minneriya national park</td>
+                <td>Mammals</td>
+                <td><img src="./imgs/minneriya3.png" alt="mammal" width="300px" height="200px"></td>
+                <td>Among the 24 species of mammals resident in the park are Elephants, Leopards, Sloth Bear,
+                     Spotted Deer, Sambar Deer, Wild Buffalo, Wild Pig, Grey Langers, Purple-faced Leaf Monkey,
+                     three species of Mongoose, Porcupine and Indian Pangolin.</td>
+            </tr>
+            <tr>
+                <td>Birds</td>
+                <td ><img src="./birdtable.png" alt="bird" width="300px" height="200px"></td>
+                <td>Minneriya National Park has recorded over 170 species of birds. From Migrating waders
+                     like Woodsand Piper, Common Sandpiper & Kentish Plovers to forest birds like Malabar-pied
+                    Hornbills, Rufus Woodpecker the globally endangered Lesser Adjutant and the endemics Sri
+                    Lanka Grey Horn-bill, Sri Lanka Green Pigeon, Brown-capped Babbler and Sri Lanka Jungle
+                     Fowl are some of the highlights.</td>
+                
+            </tr>
+        </tbody><!--end of table footer-->
+        <tfoot><tr>
+            <td colspan="4">Animal Conservation</td>
+        </tr></tfoot>
+    </table>
+</div>
+</body>
+<footer class="page2">
+   <!--this page's footer has been given a name due to reasons that occured while making this page responsive-->
+
+    <p>&copy;2023 sri lankan wildlife.All Right Reserved</p>   
+</footer>
