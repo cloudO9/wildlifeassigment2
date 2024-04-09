@@ -12,9 +12,9 @@ document.getElementById('loginform').addEventListener('submit', function (e) {
                 localStorage.setItem('username', username);
                 localStorage.setItem('password', password);
                 if (user.username === 'admin') {
-                    window.location.href = 'dashboard.html'; 
+                    window.location.assign = 'dashboard.html'; 
                 } else {
-                    window.location.href = 'index1.html'; 
+                    window.location.assign = 'index1.html'; 
                 }
             } else {
                 alert('Invalid credentials. Please try again.');
