@@ -14,7 +14,7 @@ document.getElementById('loginform').addEventListener('submit', function (e) {
                 if (user.username === 'admin') {
                     window.location.assign = 'dashboard.html'; 
                 } else {
-                    window.location.assign = 'index1.html'; 
+                    window.location.assign = 'index.html'; 
                 }
             } else {
                 alert('Invalid credentials. Please try again.');
